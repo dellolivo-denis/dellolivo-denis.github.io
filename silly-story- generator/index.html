@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+  <body>
+    <div>
+      <label for="custom-name">Enter custom name:</label>
+      <input id="custom-name" type="text" placeholder="" />
+    </div>
+
+    <fieldset>
+      <legend>Choose locale:</legend>
+      <label for="us">US</label
+      ><input id="us" type="radio" name="uk-us" value="us" checked />
+      <label for="uk">UK</label
+      ><input id="uk" type="radio" name="uk-us" value="uk" />
+    </fieldset>
+
+    <div>
+      <button class="generate">Generate random story</button>
+      <button class="reset">reset</button>
+      <button class="download">scarica testo</button>
+
+    </div>
+  
+    <div>   
+      <button class="cerca">cerca</button>
+      <input type="text" id="parola">
+    </div>
+     
+
+
+    <div>
+         <button class="cripta">encrypt story</button>
+         <label for="shift">Shift:</label>
+         <input type="number" id="shift">
+         <br>
+     <label for="fontSize">Font Size:</label>
+        <input type="number" id="fontSize">
+    </div>
+
+     <input type="color" id="colorPick">
+    <p class="story"></p>
+    
+  </body>
+  <script type="text/javascript" src="code.js"></script>
+</html>
